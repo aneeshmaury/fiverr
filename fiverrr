@@ -1,0 +1,207 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Seller Mode
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-white">
+  <div class="bg-[#25272B] text-white relative pb-6">
+   <div class="flex justify-between items-center px-5 pt-3">
+    <div class="text-[20px] font-normal">
+     8:07
+    </div>
+    <div class="flex items-center space-x-1 text-[12px] font-semibold leading-none">
+     <div class="flex flex-col items-center leading-[10px]">
+      <span class="text-[7px] font-extrabold">
+       Vo
+      </span>
+      <span class="text-[7px] font-extrabold">
+       LTE
+      </span>
+     </div>
+     <i class="fas fa-wifi text-[18px]">
+     </i>
+     <span class="text-[12px] font-semibold">
+      LTE
+     </span>
+     <i class="fas fa-signal text-[18px]">
+     </i>
+     <i class="fas fa-battery-three-quarters text-[18px]">
+     </i>
+     <span class="text-[14px] font-normal">
+      59%
+     </span>
+    </div>
+   </div>
+   <div class="absolute top-3 right-5">
+    <div class="relative">
+     <i class="far fa-bell text-white text-[26px]">
+     </i>
+     <div class="absolute -top-1 -right-1 bg-pink-400 text-white text-[12px] font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+      1
+     </div>
+    </div>
+   </div>
+   <div class="flex items-center space-x-4 px-5 pt-10 pb-6">
+    <div class="relative">
+     <img alt="Profile image of a young man with black hair and a black t-shirt on a blue-purple gradient background" class="w-14 h-14 rounded-full object-cover" height="60" src="https://storage.googleapis.com/a1aa/image/60ba8187-fb79-4cf4-5805-df516103127b.jpg" width="60"/>
+     <div class="absolute bottom-0 right-0 w-5 h-5 bg-[#B9B9B9] border-2 border-[#25272B] rounded-full">
+     </div>
+    </div>
+    <div>
+     <h1 class="text-white font-extrabold text-xl leading-6">
+      Aneesh K
+     </h1>
+     <p class="text-white text-lg leading-6">
+      Personal balance:
+      <span class="font-extrabold">
+       ₹0
+      </span>
+     </p>
+    </div>
+   </div>
+   <div class="bg-white rounded-xl mx-5 shadow-lg flex justify-between items-center px-5 py-3 mb-5">
+    <h2 class="font-extrabold text-lg text-black">
+     Seller mode
+    </h2>
+    <label class="relative inline-flex items-center cursor-pointer" for="toggle">
+     <input aria-checked="true" checked="" class="sr-only peer" id="toggle" type="checkbox"/>
+     <div class="w-11 h-6 bg-green-200 rounded-full peer peer-checked:bg-green-500 peer-focus:ring-4 peer-focus:ring-green-300 transition-colors">
+     </div>
+     <div class="absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform peer-checked:translate-x-5">
+     </div>
+    </label>
+   </div>
+  </div>
+  <div class="px-5">
+   <h3 class="font-extrabold text-2xl mb-3">
+    Selling
+   </h3>
+   <ul class="divide-y divide-gray-200 border border-gray-100 rounded-md">
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="fas fa-dollar-sign text-lg">
+      </i>
+      <span class="font-semibold text-lg text-black">
+       Earnings
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="fas fa-file-alt text-lg">
+        </i>
+      <span class="font-semibold text-lg text-black">
+       Custom offer templates
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="far fa-newspaper text-lg">
+      </i>
+      <span class="font-semibold text-lg text-black">
+       Briefs
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="fas fa-bullhorn text-lg">
+      </i>
+      <span class="font-semibold text-lg text-black">
+       Share Gigs
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="fas fa-user-alt text-lg">
+      </i>
+      <span class="font-semibold text-lg text-black">
+       My profile
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="fas fa-credit-card text-lg">
+      </i>
+      <span class="font-semibold text-lg text-black">
+       Manage Gigs
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="far fa-calendar-alt text-lg">
+      </i>
+      <span class="font-semibold text-lg text-black">
+       Availability
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+    <li class="flex items-center justify-between py-4 px-3 cursor-pointer hover:bg-gray-50">
+     <div class="flex items-center space-x-3 text-gray-400">
+      <i class="fas fa-paper-plane text-lg">
+      </i>
+      <span class="font-semibold text-lg text-black">
+       Invite friends
+      </span>
+     </div>
+     <i class="fas fa-chevron-right text-gray-400">
+     </i>
+    </li>
+   </ul>
+  </div>
+  <nav class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 flex justify-between items-center px-8 py-3">
+   <button aria-label="Home" class="relative text-black text-2xl">
+    <i class="fas fa-home">
+    </i>
+   </button>
+   <button aria-label="Messages" class="relative text-black text-2xl">
+    <i class="far fa-envelope">
+    </i>
+    <div class="absolute -top-2 -right-3 bg-pink-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+     2
+    </div>
+   </button>
+   <button aria-label="Orders" class="relative text-black text-2xl">
+    <i class="far fa-clipboard">
+    </i>
+   </button>
+   <button aria-label="Profile" class="relative text-green-500 text-2xl border border-green-500 rounded-full p-1">
+    <i class="far fa-user">
+    </i>
+    <div class="absolute -top-2 -right-3 bg-pink-400 text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center">
+     1
+    </div>
+   </button>
+  </nav>
+ </body>
+</html>
